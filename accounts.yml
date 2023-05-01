@@ -9,3 +9,7 @@ accounts:
   activeBranches[1]: Pokhara
   msg: Welcome to the SampleBank Accounts Default application
   activeBranches[0]: Kathmandu
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaserver:8089/eureka/
